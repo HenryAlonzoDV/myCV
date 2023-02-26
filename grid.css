@@ -113,7 +113,13 @@ section{
         scroll-behavior: smooth;
         transition: var(--tran-05);
     }
+
+    .sidebar header .toggle {
+      pointer-events: none;
+      opacity: 0.5;
+    }
   }
+  
 
   @media screen and (max-width: 660px) {
     

@@ -6,7 +6,8 @@ const body = document.querySelector("body"),
       modeText = body.querySelector(".mode-text"),
       container = body.querySelector(".container");
       
-      
+      /**  MARGEN CON SIDEBAR ABIERTO */
+
       toggle.addEventListener("click", () =>{
         sidebar.classList.toggle("close");
         if (sidebar.classList.contains("close")) {
@@ -19,6 +20,8 @@ const body = document.querySelector("body"),
       searchBtn.addEventListener("click", () =>{
         sidebar.classList.remove("close");
       })
+    
+      /**  MODO DARK */
 
       modeSwitch.addEventListener("click", () =>{
         body.classList.toggle("dark");
@@ -28,5 +31,4 @@ const body = document.querySelector("body"),
         }else{
             modeText.innerText = "Dark Mode"
         }
-
       });
