@@ -102,7 +102,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .estudio-2:hover{
@@ -110,7 +111,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .estudio-3:hover{
@@ -118,7 +120,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .estudio-4:hover{
@@ -126,7 +129,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .experiencia-1:hover{
@@ -134,7 +138,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .experiencia-2:hover{
@@ -142,7 +147,8 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transform: translateY(-3%);
-    transform: scale(1.15)
+    transform: scale(1.15);
+    user-select: none;
 }
 
 .direccion:hover{
@@ -150,6 +156,7 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .telefonos:hover{
@@ -157,6 +164,7 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .correo:hover{
@@ -164,6 +172,7 @@ p{
     background: #5b9fe2;
     border-radius: 6px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 p{
@@ -186,3 +195,22 @@ h2, h3{
     pointer-events: none;
     opacity: 0.5;
   }
+
+.foto-perfil {
+    width: 180px;
+    height: 180px;
+    border: 3px solid rgba(8, 161, 149, 0.808);
+    border-radius: 50%;
+    margin: 70px;
+    margin-bottom: 40px;
+}
+
+.nombre {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(2, 133, 122);
+}
+
+.hola {
+    margin: 0;
+}
