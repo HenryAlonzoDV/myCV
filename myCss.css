@@ -9,16 +9,6 @@
     box-sizing: border-box;
 }
 
-/*.contenedor-general{
-    width: 90%;
-    max-width:1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, auto);
-}*/
-
-
 .container{
     grid-column: 1/-1;
 }
@@ -37,6 +27,7 @@ section .icon2{
 
 .experiencia-1, .experiencia-2{
     display: flex;
+    text-align: center;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -85,8 +76,23 @@ a{
 }
 
 p{
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
+}
+
+.detalle-estudios {
+    text-align: justify;
+    padding-top: 15px;
+    max-width: 800px;
+}
+
+.titulos .sub-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 180px;
+    max-width: 700px;
+    margin-left: 70px;
 }
 
 .estudios .icon{
@@ -133,6 +139,12 @@ p{
     user-select: none;
 }
 
+.detalle-experiencia {
+    text-align: justify;
+    padding-top: 15px;
+    max-width: 700px;
+}
+
 .experiencia-1:hover{
     padding: 5px;
     background: #5b9fe2;
@@ -149,6 +161,12 @@ p{
     transform: translateY(-3%);
     transform: scale(1.15);
     user-select: none;
+}
+
+.p-contacto {
+    text-align: justify;
+    padding-top: 15px;
+    max-width: 700px;
 }
 
 .direccion:hover{
